@@ -1,0 +1,91 @@
+.banner{
+    padding: 50px 100px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    text-align: center;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto 100px auto;
+    font-size: 18px;
+    padding: 0 100px;
+}
+
+.innerDiv{
+    width: 80%;
+    background-color: aliceblue;
+    max-width: 500px;
+    padding: 50px 35px;
+}
+
+input{
+    height: 45px;
+    outline: none;
+    border: 1px solid black;
+    width: 100%;
+    padding-left: 15px;
+}
+
+textarea{
+    outline: none;
+    border: 1px solid black;
+    width: 100%;
+    padding-left: 15px;
+}
+
+button{
+    height: 50px;
+    padding: 0 35px;
+    background-color: #d9497e;
+    color: white;
+    font-size: large;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.fields{
+    margin-bottom: 25px;
+}
+
+.heading{
+    text-align: center;
+    margin: 100px 0 25px 0;
+}
+
+.adminLog{
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+}
+
+.tablediv{
+    padding: 25px 100px;
+}
+
+.editexamtable{
+    padding: 100px;
+}
+
+.delete{
+    height: 35px;
+    background-color: red;
+    color: white;
+}
+
+.update{
+    height: 35px;
+    background-color: green;
+    color: white;
+}
+
+.th-heading{
+    text-align: start;
+}
+
+.details{
+    width: 50%;
+}

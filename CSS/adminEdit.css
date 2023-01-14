@@ -1,0 +1,117 @@
+section{
+
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+    background-color: black;
+}
+
+.form-container{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient( rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 400px;
+    padding: 50px 30px;
+    border: 0.25em solid #e1ac19;
+    border-radius: 1em;
+    opacity: 98%;
+}
+form > * {
+  align-items: center;
+  align-content: center;
+  left: 50px;
+}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  label {
+    font-size: 20px;
+  }
+
+section > h2{
+    left: 20px;
+    top: 30px;
+    color: #e1ac19;
+    font-size: 30px;    
+}
+  .text{
+    color: #e1ac19;
+    font-size: 20px;
+  }
+
+  .btn-row{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .btn-col {
+    position: relative;
+      text-align: center;
+      font-size: 20px;
+      color: white;
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+      width:50%;
+    }
+    .column {
+      float: left;
+      width: 50%;
+    }
+
+  /* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: rgb(255, 255, 255);
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+  color: #f1f1f1;
+}
+
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -5px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -5px;
+  content: "✖";
+}
+
+/* submit button */
+input[type='submit']:disabled{
+color:red;
+}
+

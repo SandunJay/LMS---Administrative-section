@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullpage
+{
+    height:100%;
+    width:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../Img/graduate-student.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    /*set the background*/
+}
+/*
+#login-form
+{
+    display: none;
+    /*this block shows hide form
+}
+*/
+.form-box
+{
+    width: 380px;
+    height:300px;
+    position:relative;
+    margin: 15% 5%;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    overflow: hidden;
+/*creating form*/
+}
+
+.button-box
+{
+    width:220px;
+    margin:50px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn
+{
+    padding:5px 30px;
+    cursor:pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position:relative;
+}
+
+#btn
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: #E3C565;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+ .input-group-login
+ {
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition:0.5s;
+    
+ }
+
+ .input-group-register
+{
+    top: 120px;
+    position:absolute;
+    width: 280px;
+    transition: 0.5s;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#customer
+{
+    margin-left:25px;
+    color: #FFFF00;
+    font-size: 18px;
+}
+
+.submit-btn
+{
+    width: 50%;
+    padding: 10px 50px;
+    cursor: pointer;
+    display:block;
+    margin: 10% auto;
+    background: #E3C565;
+    border:0;
+    outline: none;
+    border-radius: 30px;
+}
+
+#login
+{
+    left: 50px;
+}
+
+#register
+{
+    left: 450px;
+}

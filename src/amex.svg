@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 131.29 98.47">
+    <defs>
+        <style>.cls-1,.cls-3{fill:#0095ff;}.cls-2{fill:#fffffe;}.cls-2,.cls-3{fill-rule:evenodd;}</style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <rect class="cls-1" width="131.29" height="98.47"/>
+            <path class="cls-2" d="M75.3,77.38V46.19l55.51.05v8.61l-6.42,6.86,6.42,6.92v8.8H120.57l-5.45-6-5.4,6Z"/>
+            <path class="cls-3" d="M79,74V49.62H99.64v5.6h-14V59H99.31v5.51H85.69v3.74h14V74Z"/>
+            <path class="cls-3"
+                  d="M99.54,74,111,61.77,99.54,49.62h8.84l7,7.71,7-7.71h8.46v.19l-11.18,12,11.18,11.84V74h-8.54l-7.1-7.8-7,7.8Z"/>
+            <path class="cls-2" d="M77.89,18.5H91.27L96,29.17V18.5h16.52l2.85,8,2.86-8h12.61V49.69H64.14Z"/>
+            <path class="cls-3"
+                  d="M80.42,21.89,69.62,46.21H77l2-4.87h11l2,4.87h7.59L89,21.89Zm.93,14,3.24-7.74,3.23,7.74Z"/>
+            <path class="cls-3"
+                  d="M99.63,46.2V21.89l10.41,0,5.36,14.95,5.39-15h10V46.2l-6.45.06V29.56L118.28,46.2h-5.89l-6.21-16.7V46.2Z"/>
+        </g>
+    </g>
+</svg>

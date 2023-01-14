@@ -1,0 +1,68 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 100px 150px 100px;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    gap: 25px;
+}
+
+.flex-child1{
+    flex-basis: 30%;
+    border: 1px solid rgb(24, 5, 5);
+    padding: 50px 15px;
+    text-align: center;
+}
+
+.flex-child1 p{
+    margin-bottom: 15px;
+}
+
+.flex-child2{
+    flex-basis: 70%;
+}
+
+.inputFields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.inputFields input {
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 12px;
+    font-size: medium;
+}
+
+.inner{
+    flex-basis: 50%;
+}
+
+textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 12px;
+    font-size: medium;
+    padding-top: 12px;
+}
+
+.submit{
+    height: 50px;
+    padding: 0 35px;
+    background-color: #d9497e;
+    color: white;
+    font-size: large;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+

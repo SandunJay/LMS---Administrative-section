@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Settings</title>
+  <link rel="stylesheet" href="/CSS/header.css">
+  <link rel="stylesheet" href="/CSS/footer.css">
+  <link rel="stylesheet" href="/CSS/settings.css">
+  <script type="module" src="/JS/main.js"></script>
+</head>
+<body>
+<!-- Header starts here -->
+        <my-header></my-header>
+<!-- Header ends here -->
+
+<!-- Form starts here -->
+  <section>
+    <div class="form-container">
+      <h1>Settings</h1>
+      <form action="profileSettings.php" onkeyup="return checkPassword()">
+        <div class="control" id="row">
+            <div class="column">
+                <label for="userName">Existing username</label>
+                <input type="text" name="userName" id="userName">
+          </div>
+          <div class="column">
+                <label for="cfuserName">New username</label>
+                <input type="text" name="cfuserName" id="cfuserName" onkeyup='username_check();'>
+            </div>
+        </div>
+        <div class="row">
+            <span id='username_warning'></span>
+        </div>
+        <div class="control"id="row">
+            <div class="column">
+                <label for="email">New email</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="column">
+                <label for="cfemail">New email</label>
+                <input type="text" name="cfemail" id="cfemail" onkeyup='email_check();'>
+            </div>
+        </div>
+        <div class="row">
+            <span id='email_warning'></span>
+        </div>
+        <div class="control" id="row">
+            <div class="column">
+                <label>password :</label>
+                    <input name="password" id="password" type="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" />
+            </div>
+            <div class="column">
+                <label>confirm password:</label>
+                    <input type="password" name="confirm_password" id="confirm_password"  onkeyup='pass_check();' /> 
+            </div>
+        </div>
+        <div class="row">
+            <span id='password_warning'></span>
+        </div>
+        <div class="container">
+            <div class="message">
+                <h3>Password must contain the following:</h3>
+                <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+                <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+                <p id="number" class="invalid">A <b>number</b></p>
+                <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+            </div>
+        </div>
+        <span><input type="checkbox" id="conditions" onclick="activateButton()">I accept the terms and conditions</span>
+        <div class="control">
+          <input type="submit" value="confirm" id="button" disabled>
+          <input type="reset" value="Reset">
+        </div>
+      </div>
+  </section>
+<!-- Form ends here -->
+<!-- background video start -->
+<div class="videoBg">
+  <div class="video-container">
+    <video autoplay loop muted>
+      <source src="/Videos/pexels-yan-krukov-8199326.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+<!-- BAckground video end -->
+<!-- Footer starts here -->
+          <my-footer></my-footer>
+        <script src="/JS/settings.js"></script>
+</body>
+</html>

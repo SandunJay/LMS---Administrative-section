@@ -1,0 +1,17 @@
+section {
+    padding: 20px;
+    max-width: fit-content;
+    justify-content: center;
+    background-color: black;
+}
+
+.container{
+    padding: 20px;
+}
+.container> h1,h2{
+    color: #fff;
+}
+.container > p,div{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #e1ac19;
+}

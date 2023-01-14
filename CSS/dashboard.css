@@ -1,0 +1,238 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+h2{
+    padding-top: 30px;
+}
+.but-1{
+    background-color: white;
+
+}
+button{
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.courses {
+    width: 50%;
+    position: fixed;
+    padding-bottom: 0;
+    z-index: 200;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    bottom: 85%;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+
+.course1{
+    width: 250px;
+    margin: 15px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    height: 20%;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: rgb(34, 68, 234); 
+    border-radius: 20px;  
+}
+.course1:hover {
+    box-shadow:  rgba(208, 201, 201, 0.23);
+    transform: translate(0px, -8px);
+
+}
+.course2{
+    width: 250px;
+    margin: 15px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    height: 20%;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: rgb(27, 125, 244); 
+    border-radius: 20px;
+}
+.course2:hover {
+    box-shadow:  rgba(208, 201, 201, 0.23);
+    transform: translate(0px, -8px);
+
+}
+.course3{
+    width: 250px;
+    margin: 15px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    height: 20%;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: rgb(77, 174, 243); 
+    border-radius: 20px;
+}
+.course3:hover {
+    box-shadow:  rgba(208, 201, 201, 0.23);
+    transform: translate(0px, -8px);
+
+}
+.course4{
+    width: 250px;
+    margin: 15px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    height: 20%;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: rgb(54, 156, 239);
+    border-radius: 20px;
+}
+.course4:hover {
+    box-shadow:  rgba(208, 201, 201, 0.23);
+    transform: translate(0px, -8px);
+
+}
+.course5{
+    width: 250px;
+    margin: 15px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    float:left;
+    text-align: center;
+    height: 20%;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: rgb(12, 72, 5);
+    border-radius: 20px;
+    
+    
+    
+}
+.course5:hover {
+    box-shadow:  rgba(208, 201, 201, 0.23);
+    transform: translate(0px, -8px);
+
+}
+.course6{
+    width: 250px;
+    margin: 15px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    height: 20%;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: rgb(6, 161, 55);
+    border-radius: 20px;
+    
+}
+.course6:hover {
+    box-shadow:  rgba(208, 201, 201, 0.23);
+    transform: translate(0px, -8px);
+
+}
+.course7{
+    width: 250px;
+    margin: 15px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    height: 20%;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: rgb(70, 230, 153);
+    border-radius: 20px;
+
+}
+.course7:hover {
+    box-shadow:  rgba(208, 201, 201, 0.23);
+    transform: translate(0px, -8px);
+
+}
+.regforc{
+    width: 250px;
+    height: 200px;
+    margin: 15px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-right: 11%;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: rgb(245, 91, 91);
+
+}
+.regforc:hover {
+    box-shadow:  rgba(208, 201, 201, 0.23);
+    transform: translate(0px, -8px);
+
+}
+div.absolute {
+    position: absolute;
+    width: 300px;
+    bottom: 50%;
+    text-decoration: underline;
+    z-index: 200;
+    margin-bottom: 20px;
+
+    
+}
+
+
+  
